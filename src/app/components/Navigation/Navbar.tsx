@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Button from "@/app/components/Navigation/Button";
 
 export default function Navbar(){
     return(
@@ -48,8 +47,6 @@ export default function Navbar(){
                                 <button>Entrar</button>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
