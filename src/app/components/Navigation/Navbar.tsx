@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export default function Navbar(){
     return(
         <>
-            <div className="w-full h-20 sticky top-0">
+            <div className="w-full bg-white shadow shadow-md h-20 sticky top-0">
                 <div className="container mx-auto px-4 h-full">
                     <div className="flex justify-between items-center h-full">
                         <svg width="136" height="30" viewBox="0 0 1265 283" fill="none" xmlns="http://www.w3.org/2000/svg">
