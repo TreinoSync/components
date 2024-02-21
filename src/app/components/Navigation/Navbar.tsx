@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default function Navbar(){
     return(
@@ -38,14 +39,9 @@ export default function Navbar(){
                                 </Link>
                             </li>
                         </ul>
-                        <div className="flex justify-end hidden md:flex">
-                            <div className="bg-[#262626] text-white py-2 rounded-md p-2 mr-4">
-                                <button>Criar Conta</button>
-                            </div>
-                            
-                            <div className="bg-gradient-to-r py-2 from-[#386DF8] to-[#C894DA] rounded-md text-white p-2">
-                                <button>Entrar</button>
-                            </div>
+                        <div className="flex flex-row hidden md:flex gap-3">
+                                <Button className="bg-zinc-800">Criar Conta</Button>
+                                <Button className="bg-gradient-to-r from-[#386DF8] to-[#C894DA] text-white">Entrar</Button>
                         </div>
                     </div>
                 </div>
