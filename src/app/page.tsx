@@ -1,9 +1,9 @@
 import Footer from "@/app/components/Footer";
-import Navbar from "@/app/components/Navigation/Navbar"
+import NavBar from "@/app/components/Navigation/Navbar"
 export default function Home() {
   return (
     <h1>
-      <Navbar />
+      <NavBar />
       <Footer />
     </h1>
   );
