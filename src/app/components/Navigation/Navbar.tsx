@@ -45,7 +45,7 @@ const toggleNavBar = () => {
                             hover:text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black"
                             onClick={toggleNavBar}>
                                 {isClick ? (
-                                < X />
+                                <X/>
                                 ) : (
                                     < Menu />
                                 )}
